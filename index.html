@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+margin: 0;
+padding: 0;
+    }
+.parent{
+    display: flex;
+    flex-direction: r;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1000px;
+}
+.facebook p{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-left: 32px;
+    
+}
+.facebook{
+    padding-bottom: 14rem;
+
+width:500px;
+    display: flex;
+flex-wrap: wrap;
+align-items: start;
+justify-content: center;
+    flex-direction: column;
+    height: 200px;
+
+}
+.loginform{
+    border: 0.8px solid rgba(0, 0, 0, 0.164);
+
+width: 500px;
+border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 22px;
+    box-shadow: 10px 10px  16px rgb(158, 161, 161);
+
+    height: 500px;
+}
+#email{
+    font-size: 1.2rem;
+      width: 400px;
+    border: 0.6px solid rgba(0, 0, 0, 0.315);
+    height: 45px;
+    padding-left: 12px;
+}
+#password{
+    border: 0.6px solid rgba(0, 0, 0, 0.315);
+    font-size: 1.2rem;
+    width: 400px;
+    height: 45px;
+    border-radius: 3px;
+    padding-left: 12px;
+
+}
+#login{
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    background-color:#3c6fd6 ;
+    cursor: pointer;
+}
+#forgotpassword{
+    text-decoration: none;
+    color: #1d6fbb;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+#CreateAccount{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 70%;
+    height: 52px;
+    border-radius: 6px;
+    background-color:#19be21 ;
+    cursor: pointer;
+    
+}
+#CreateAccount:hover{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 70%;
+    height: 52px;
+    border-radius: 6px;
+    background-color:#2ec735 ;
+    transition: 0.1 s;
+    
+}
+.facebook img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: start;
+    width: 400px;
+}
+
+
+
+
+
+
+</style>
+<body>
+    <div class="parent">
+        <div class="facebook">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="loginform">
+            <form action="">
+                <input type="email" name="" id="email" placeholder="Email or Phone Number">
+                <br><br>
+                <input type="password" name="" id="password" placeholder="Password">
+                <br><br>
+                <a href=""><input type="button" value="Log In" id="login"></a>
+                <br><br>
+                <center><a href="" id="forgotpassword">Forgot Account?</a>
+                    <br>
+                <br><br>
+                <hr>
+                <br><br>
+              <a href="./homepage/fbloginresponsive/index.html">  <input type="button" value="Create New Account" id="CreateAccount"></center></a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
